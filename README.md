@@ -78,7 +78,7 @@ Do not copy and replace your file settings.py by mine. I removed my SECRET_KEY i
 ## **Go Further**
 
 - My CSS is awful, do not hesitate to do waaaaayyy better. 
-- ChatClone-GPT** is just a basic example of what you can do with the GPT API and Python. There are many other ways you can customize and extend the chatbot, such as by adding additional functionality or integrating it with other services.
+- **ChatClone-GPT** is just a basic example of what you can do with the GPT API and Python. There are many other ways you can customize and extend the chatbot, such as by adding additional functionality or integrating it with other services.
 - You can learn more about the GPT API and other OpenAI models by visiting the OpenAI documentation page at **[https://beta.openai.com/docs](https://beta.openai.com/docs)**.
 
 ## **License**
