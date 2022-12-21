@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <title>ChatClone</title>
+  <style>
+    .user-message {
+      background-color: lightblue;
+      border-radius: 5px;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+    .bot-message {
+      background-color: lightyellow;
+      border-radius: 5px;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ChatClone</h1>
+
+  <div id="conversation">
+    {% for message in conversation %}
+      {% if message.user %}
+        <div class="user-message">{{ message.user }}</div>
+      {% else %}
+        <div class="bot-message">{{ message.bot }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <form method="post" action="{% url 'chat' %}">
+    {% csrf_token %}
+    <input type="text" name="message">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
