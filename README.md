@@ -68,7 +68,7 @@ Do not copy and replace your file settings.py by mine. I removed my SECRET_KEY i
 
 2. Open your web browser and go to **[http://localhost:8000/chat](http://localhost:8000/chat)** to start using **ChatClone-GPT**.
 
-![ChatClone-GPT](screenshot\ChatClone-GPT.png)
+![ChatClone-GPT](https://github.com/AlexIn-Tech/ChatClone-GPT/blob/main/screenshot/ChatClone-GPT.png)
 
 ## **Tips**
 
